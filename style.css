@@ -71,13 +71,19 @@ p {
 .swap-rate-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: stretch;
+  /* border: 3px solid #dedede; */
 }
 
 .rate {
-  color: var(--primary-color);
-  font-size: 14px;
-  padding: 0 10px;
+  color: #0aac5b;
+  font-size: 24px;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text
+  /* border: 3px solid #dedede; */
 }
 
 select:focus,
